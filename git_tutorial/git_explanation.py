@@ -84,8 +84,9 @@ git init
 git add .   
 
 # 변경사항을 추적할 특정 파일({your_file_name})을 지정 >> ex: git add {your_file_name}
-git add index.html
 # --> 그렇게 되면 stage 상태로 올라가게 됩니다. (글자 색상이 초록색으로 변경) 변경 사항을 추적 중 이라는 의미
+git add index.html
+
 
 # 메시지(-m)와 함께 버전을 생성 
 git commit -m '프로젝트 생성' #v1
